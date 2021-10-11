@@ -1,0 +1,11 @@
+2021-10-11 21:53:29  [utility.BaseClass] (main:) Chrome browser started
+2021-10-11 21:53:43  [utility.BaseClass] (main:) Application launched
+2021-10-11 21:53:43  [utility.BaseClass] (main:) Waiting for element with wait of 3000 ms
+2021-10-11 21:53:49  [utility.BaseClass] (main:) Scrolling down
+2021-10-11 21:53:52  [utility.BaseClass] (main:) Waiting for element with wait of 1000 ms
+2021-10-11 21:53:53  [utility.BaseClass] (main:) Clicking element
+2021-10-11 21:54:15  [utility.BaseClass] (main:) Clicking element
+2021-10-11 21:54:22  [utility.BaseClass] (main:) Waiting for element with wait of 1000 ms
+2021-10-11 21:54:24  [utility.BaseClass] (main:) Clicking element
+2021-10-11 21:54:36  [utility.BaseClass] (main:) Waiting for element with wait of 1000 ms
+2021-10-11 21:54:38  [utility.BaseClass] (main:) Closing the browser

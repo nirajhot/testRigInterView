@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testRig" duration-ms="68824" started-at="2021-10-03T18:25:26Z" finished-at="2021-10-03T18:26:35Z">
+    <groups>
+    </groups>
+    <test name="testRig App" duration-ms="68824" started-at="2021-10-03T18:25:26Z" finished-at="2021-10-03T18:26:35Z">
+      <class name="testCase.GetTagWithMaxQueCount">
+        <test-method status="PASS" signature="browserSetUp(java.lang.String)[pri:0, instance:testCase.GetTagWithMaxQueCount@6e1567f1]" name="browserSetUp" is-config="true" duration-ms="49789" started-at="2021-10-03T18:25:26Z" finished-at="2021-10-03T18:26:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="browseQuestions()[pri:0, instance:testCase.GetTagWithMaxQueCount@6e1567f1]" name="browseQuestions" duration-ms="7187" started-at="2021-10-03T18:26:16Z" finished-at="2021-10-03T18:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseQuestions -->
+        <test-method status="PASS" signature="clickTag()[pri:1, instance:testCase.GetTagWithMaxQueCount@6e1567f1]" name="clickTag" duration-ms="3099" started-at="2021-10-03T18:26:23Z" finished-at="2021-10-03T18:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTag -->
+        <test-method status="PASS" signature="clickNew()[pri:2, instance:testCase.GetTagWithMaxQueCount@6e1567f1]" name="clickNew" duration-ms="1712" started-at="2021-10-03T18:26:26Z" finished-at="2021-10-03T18:26:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNew -->
+        <test-method status="PASS" signature="getMaxCountQue()[pri:3, instance:testCase.GetTagWithMaxQueCount@6e1567f1]" name="getMaxCountQue" duration-ms="6426" started-at="2021-10-03T18:26:28Z" finished-at="2021-10-03T18:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMaxCountQue -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:testCase.GetTagWithMaxQueCount@6e1567f1]" name="quitBrowser" is-config="true" duration-ms="563" started-at="2021-10-03T18:26:34Z" finished-at="2021-10-03T18:26:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- testCase.GetTagWithMaxQueCount -->
+    </test> <!-- testRig App -->
+  </suite> <!-- testRig -->
+</testng-results>

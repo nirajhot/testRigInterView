@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [testRig]">
+  <listeners>
+    <listener class-name="RetryAnalyzer.MyAnnotationTransfer"/>
+  </listeners>
+  <test thread-count="5" name="testRig App(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testCase.GetTagWithMaxQueCount">
+        <methods>
+          <include name="browserSetUp"/>
+          <include name="quitBrowser"/>
+          <include name="browseQuestions"/>
+        </methods>
+      </class> <!-- testCase.GetTagWithMaxQueCount -->
+    </classes>
+  </test> <!-- testRig App(failed) -->
+</suite> <!-- Failed suite [testRig] -->
